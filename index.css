@@ -1,3 +1,6 @@
 @import url('Styles/variables.css');
 @import url('Styles/basic.css');
 @import url('/Styles/fonts.css');
+@import url('Styles/header.css');
+@import url('Styles/buttons.css');
+@import url('Styles/hero.css');

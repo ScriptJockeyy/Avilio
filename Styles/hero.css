@@ -1,0 +1,41 @@
+.hero {
+  background: url('../Assets/WebP/BG\ \(1\).webp') no-repeat center/cover;
+  height: clamp(43.75rem, 39.569rem + 17.84vw, 55.625rem);
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 50px;
+  max-width: clamp(18.75rem, 16.109rem + 11.268vw, 26.25rem);
+  padding: 175px 0;
+}
+
+.hero__title {
+  font-size: clamp(3.125rem, 2.7949rem + 1.4085vw, 4.0625rem);
+  font-weight: var(--font-weight-bold);
+  color: var(--buttons-color);
+}
+
+.hero__desc {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  color: var(--gray);
+}
+
+.btn__hero {
+  width: 230px;
+  height: 65px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background: linear-gradient(
+        rgba(245, 246, 252, 0.52),
+        rgba(255, 176, 179, 0.28)
+      ),
+      url('../Assets/WebP/BG\ \(1\).webp') 60% / cover no-repeat;
+  }
+}
