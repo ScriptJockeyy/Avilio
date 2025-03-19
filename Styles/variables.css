@@ -1,2 +1,18 @@
 :root {
+  --primary-color: white;
+  --secondary-color: #245852;
+  --text-color: black;
+  --buttons-color: #006d4e;
+
+  --font-size-base: 20px;
+  --font-size-sm: 25px;
+  --font-size-md: 30px;
+  --font-size-lg: 35px;
+  --font-size-xl: 50px;
+  --font-size-xxl: 65px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
 }
