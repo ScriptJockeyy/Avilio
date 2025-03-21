@@ -16,7 +16,7 @@
 .hero__title {
   font-size: clamp(3.125rem, 2.7949rem + 1.4085vw, 4.0625rem);
   font-weight: var(--font-weight-bold);
-  color: var(--buttons-color);
+  color: var(--light-green);
 }
 
 .hero__desc {
@@ -36,6 +36,6 @@
         rgba(245, 246, 252, 0.52),
         rgba(255, 176, 179, 0.28)
       ),
-      url('../Assets/WebP/BG\ \(1\).webp') 60% / cover no-repeat;
+      url('../Assets/WebP/BG\ \(1\).webp') 76% / cover no-repeat;
   }
 }
