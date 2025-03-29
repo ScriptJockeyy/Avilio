@@ -38,6 +38,11 @@ h4,
 h5,
 h6,
 p,
-figure {
+figure,
+blockquote {
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }

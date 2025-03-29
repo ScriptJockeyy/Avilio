@@ -9,7 +9,7 @@
   </head>
   <style></style>
   <body>
-    <header class="header">
+    <header class="header" aria-label="header section" id="header">
       <div class="container">
         <div class="header__wrapper">
           <svg class="logo" aria-label="logo">
@@ -18,16 +18,16 @@
           <nav class="header__nav" aria-label="header navigation">
             <ul class="header__nav-list" aria-label="header navigation list">
               <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Why Alivio</a>
+                <a href="#success" class="header__nav-link">Why Alivio</a>
               </li>
               <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Solution</a>
+                <a href="#hero" class="header__nav-link">Solution</a>
               </li>
               <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Community</a>
+                <a href="#about" class="header__nav-link">Community</a>
               </li>
               <li class="header__nav-item">
-                <a href="#" class="header__nav-link">Pricing</a>
+                <a href="#footer" class="header__nav-link">Pricing</a>
               </li>
             </ul>
           </nav>
@@ -39,7 +39,7 @@
       </div>
     </header>
     <main>
-      <section class="hero" aria-label="hero section">
+      <section class="hero" aria-label="hero section" id="hero">
         <div class="container">
           <div class="hero__content">
             <h1 class="hero__title">Be aware, Manage well</h1>
@@ -52,7 +52,7 @@
           </div>
         </div>
       </section>
-      <section class="about" aria-label="about section">
+      <section class="about" aria-label="about section" id="about">
         <div class="container">
           <div class="about__content">
             <h2 class="about__title">
@@ -68,7 +68,7 @@
 
           <div class="about__cards">
             <figure class="card" aria-label="first card">
-              <h4 class="card__title">Personalize</h4>
+              <h3 class="card__title">Personalize</h3>
               <p class="card__description">
                 Answer a quick survey about how you express yourself, what
                 causes you stress, and what area would you like to work on. This
@@ -81,9 +81,9 @@
               />
             </figure>
             <figure class="card" aria-label="second card">
-              <h4 class="card__title card__title-midle card__title-second">
+              <h3 class="card__title card__title-midle card__title-second">
                 Write & Understand
-              </h4>
+              </h3>
               <p class="card__description">
                 Write, draw, reflect, understand. Alivio will guide you through
                 the prompts and will help you manage your stress!
@@ -95,7 +95,7 @@
               />
             </figure>
             <figure class="card" aria-label="third card">
-              <h4 class="card__title card__title-third">Alivio!</h4>
+              <h3 class="card__title card__title-third">Alivio!</h3>
               <p class="card__description">
                 Now you are aware, and have a way to manage and overcome your
                 own stress. What are you waiting for? Alivio today!
@@ -109,8 +109,99 @@
           </div>
         </div>
       </section>
+      <section class="success" aria-label="success section " id="success">
+        <div class="container">
+          <div class="success__wrapper">
+            <div class="success__content">
+              <h3 class="success__title">
+                Let's hear about Kayla's success story
+              </h3>
+              <p class="success__description">
+                See how well Alivio works in a real customer’s life.
+              </p>
+              <button class="btn">Let’s get started</button>
+            </div>
+            <div class="success__content-video">
+              <img
+                class="video-image"
+                src="Assets/WebP/Rectangle 8.webp"
+                alt="cover success"
+              />
+              <svg class="video-icon" aria-label="video icon">
+                <use href="assets/sprites.svg#video"></use>
+              </svg>
+              <div class="success__gradient"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="product" aria-label="product section" id="product">
+        <div class="container">
+          <div class="product__wrapper">
+            <div class="product__preview">
+              <img
+                src="/Assets/WebP/Image.webp"
+                alt="product preview"
+                class="product__preview-img"
+              />
+            </div>
+            <div class="product__conntent">
+              <h4 class="product__info">Our product</h4>
+
+              <h5 class="product__title">
+                You tell us your stress, We make your diary
+              </h5>
+              <p class="product__description">
+                Everyone experiences it, and in different ways. Let Alivio guide
+                you, in a personalized journal experience, to overcome your
+                stress.
+              </p>
+              <button class="btn">Find Your Way</button>
+            </div>
+            <figure class="person-card">
+              <h4 class="person-card__title">Customized For</h4>
+              <div class="person-card__preview">
+                <img
+                  src="/Assets/WebP/Image (1).webp"
+                  alt="person card"
+                  class="person-card__preview-image"
+                />
+              </div>
+              <h5 class="person-card__name">Mikayla</h5>
+              <blockquote class="person-card__desc">
+                <h5 class="person-card__subtitle">Your custom contents</h5>
+                <ul class="person-card__list">
+                  <li class="person-card__list-item">Understand Your Stress</li>
+                  <li class="person-card__list-item">Anger Management</li>
+                </ul>
+              </blockquote>
+            </figure>
+          </div>
+        </div>
+      </section>
     </main>
+    <div class="footer" aria-label="footer section" id="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <h4 class="footer__title">Alivio</h4>
+          <nav class="footer__navigation" aria-label="footer navigation">
+            <ul class="footer-list" aria-label="footer navigation list">
+              <li class="footer-item">
+                <a href="#about" class="footer-link">Why Alivio</a>
+              </li>
+              <li class="footer-item">
+                <a href="#success" class="footer-link">Solution</a>
+              </li>
+              <li class="footer-item">
+                <a href="#hero" class="footer-link">Community</a>
+              </li>
+              <li class="footer-item">
+                <a href="#about" class="footer-link">Pricing</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
-
-<!-- Остановился на алоптации тайтла и текста -->
